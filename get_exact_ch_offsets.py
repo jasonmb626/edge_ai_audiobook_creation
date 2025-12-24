@@ -16,14 +16,17 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 SAMPLE_RATE = 16000
-IN_AUDIO_FILE_PATH = sys.argv[1]
+FQ_IN_AUDIO_FILE_PATH = os.path.abspath(sys.argv[1])
+WORKING_DIR = os.path.dirname(FQ_IN_AUDIO_FILE_PATH)
+IN_AUDIO_FILE_PATH = os.path.basename(FQ_IN_AUDIO_FILE_PATH)
 IN_AUDIO_FILE_PATH_PARTS = IN_AUDIO_FILE_PATH.split('.')
 IN_AUDIO_FILE_PATH_PARTS.pop()
 #Assume the txt file and offsets file are the same as audio file but w/ diff extensions
-ORIG_TXT_FILE_PATH = '.'.join(IN_AUDIO_FILE_PATH_PARTS) + '-orig.txt'
-OFFSETS_JSON_FILE_PATH = '.'.join(IN_AUDIO_FILE_PATH_PARTS) + '.json'
-OUTPUT_CSV_FILE_PATH = '.'.join(IN_AUDIO_FILE_PATH_PARTS) + '.psv'
+ORIG_TXT_FILE_PATH = os.path.join(WORKING_DIR, '.'.join(IN_AUDIO_FILE_PATH_PARTS) + '-orig.txt')
+OFFSETS_JSON_FILE_PATH = os.path.join(WORKING_DIR, '.'.join(IN_AUDIO_FILE_PATH_PARTS) + '.json')
+OUTPUT_CSV_FILE_PATH = os.path.join(WORKING_DIR, '.'.join(IN_AUDIO_FILE_PATH_PARTS) + '.psv')
 
+print (OFFSETS_JSON_FILE_PATH)
 if not os.path.exists(OFFSETS_JSON_FILE_PATH):
     print ('Missing offsets json file ' + OFFSETS_JSON_FILE_PATH)
     sys.exit()
@@ -61,7 +64,7 @@ def get_ch_offset(rec: KaldiRecognizer, approx_offset: float, word_to_search: st
     begin_time = approx_offset - 15
     end_time = approx_offset + 15
     command = ["ffmpeg", "-nostdin", "-loglevel", "quiet", "-ss", str(begin_time), "-to", str(end_time), "-i",
-               IN_AUDIO_FILE_PATH, "-ar", str(SAMPLE_RATE), "-ac", "1", "-f", "s16le", "-"]
+               FQ_IN_AUDIO_FILE_PATH, "-ar", str(SAMPLE_RATE), "-ac", "1", "-f", "s16le", "-"]
     text = []
     ch_text = []
     offset = 0
@@ -73,19 +76,23 @@ def get_ch_offset(rec: KaldiRecognizer, approx_offset: float, word_to_search: st
             if len(data) == 0:
                 break
             if rec.AcceptWaveform(data):
-                results = json.loads(rec.Result())
-                results_len = len(results['result'])
-                for wi in range(results_len):
-                    word_obj = results['result'][wi]
-                    if word_obj['word'] == word_to_search:
-                        offset = word_obj['start']
-                        start_index = wi
-                        end_index = wi + 9
-                        if end_index > results_len:
-                            end_index = results_len
-                        words = [i['word'] for i in results['result'][start_index:end_index]]
-                        ch_text = ' '.join(words)
-                text.append(results['text'])
+                try:
+                    results = json.loads(rec.Result())
+                    results_len = len(results['result'])
+                    for wi in range(results_len):
+                        word_obj = results['result'][wi]
+                        if word_obj['word'] == word_to_search:
+                            offset = word_obj['start']
+                            start_index = wi
+                            end_index = wi + 9
+                            if end_index > results_len:
+                                end_index = results_len
+                            words = [i['word'] for i in results['result'][start_index:end_index]]
+                            ch_text = ' '.join(words)
+                    text.append(results['text'])
+                except Exception as e:
+                    print ('Error at ' + str(approx_offset))
+                    print (e)
         return offset, ch_text, (total_read / SAMPLE_RATE / 2)
 
 
