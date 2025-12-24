@@ -58,7 +58,7 @@ TITLE={title}
 with open(TOML_OUT_PATH, 'w') as outfile:
     outfile.write(out_contents)
 
-print ('metadata file create. You can combine wit hthe following:')
+print ('Metadata file created. You can combine wit hthe following:')
 print (f'ffmpeg -i "{FQ_AUDIO_FILE_PATH}" -i "{JPG_FILE_PATH}" -i "{TOML_OUT_PATH}" -map 0:0 -map 1:0 -map_metadata 2 -c:v copy -c:a aac -ac 1 -disposition:v attached_pic "{M4B_FILE_PATH}"')
 
 #Metadata info
