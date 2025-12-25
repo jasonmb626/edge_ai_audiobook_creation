@@ -1,0 +1,896 @@
+[
+  {
+    "index": 1,
+    "start": 153.113125,
+    "chapter": 1,
+    "ch_words": [
+      "one",
+      "fanning",
+      "the",
+      "sparks",
+      "point",
+      "of",
+      "view",
+      "men",
+      "chapter"
+    ]
+  },
+  {
+    "index": 2,
+    "start": 286.643125,
+    "chapter": 2,
+    "ch_words": [
+      "two",
+      "roy",
+      "dion",
+      "point",
+      "of",
+      "view",
+      "randell",
+      "thor",
+      "chapter"
+    ]
+  },
+  {
+    "index": 3,
+    "start": 385.6825,
+    "chapter": 3,
+    "ch_words": [
+      "three",
+      "pale",
+      "shadows",
+      "point",
+      "of",
+      "view",
+      "randell",
+      "thor",
+      "chapter"
+    ]
+  },
+  {
+    "index": 4,
+    "start": 517.373125,
+    "chapter": 4,
+    "ch_words": [
+      "four",
+      "twilight",
+      "point",
+      "of",
+      "view",
+      "randell",
+      "thor",
+      "rand",
+      "chapter"
+    ]
+  },
+  {
+    "index": 5,
+    "start": 620.850625,
+    "chapter": 5,
+    "ch_words": [
+      "five",
+      "among",
+      "the",
+      "wise",
+      "once",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 6,
+    "start": 713.8575,
+    "chapter": 6,
+    "ch_words": [
+      "six",
+      "gateways",
+      "point",
+      "of",
+      "view",
+      "randell",
+      "thor",
+      "rand",
+      "chapter"
+    ]
+  },
+  {
+    "index": 7,
+    "start": 903.096875,
+    "chapter": 7,
+    "ch_words": [
+      "seven",
+      "a",
+      "departure",
+      "a",
+      "point",
+      "of",
+      "view",
+      "a",
+      "chapter"
+    ]
+  },
+  {
+    "index": 8,
+    "start": 971.066875,
+    "chapter": 8,
+    "ch_words": [
+      "eight",
+      "over",
+      "the",
+      "border",
+      "point",
+      "of",
+      "view",
+      "nine",
+      "chapter"
+    ]
+  },
+  {
+    "index": 9,
+    "start": 1043.85875,
+    "chapter": 9,
+    "ch_words": [
+      "nine",
+      "a",
+      "signal",
+      "point",
+      "of",
+      "view",
+      "nine",
+      "evil",
+      "chapter"
+    ]
+  },
+  {
+    "index": 10,
+    "start": 1148.771875,
+    "chapter": 10,
+    "ch_words": [
+      "ten",
+      "figs",
+      "and",
+      "mice",
+      "point",
+      "of",
+      "view",
+      "the",
+      "chapter"
+    ]
+  },
+  {
+    "index": 11,
+    "start": 1296.479375,
+    "chapter": 11,
+    "ch_words": [
+      "eleven",
+      "the",
+      "nine",
+      "horse",
+      "hitch",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 12,
+    "start": 1372.92625,
+    "chapter": 12,
+    "ch_words": [
+      "twelve",
+      "an",
+      "old",
+      "pipe",
+      "point",
+      "of",
+      "view",
+      "gareth",
+      "chapter"
+    ]
+  },
+  {
+    "index": 13,
+    "start": 1405.619375,
+    "chapter": 13,
+    "ch_words": [
+      "thirteen",
+      "a",
+      "small",
+      "room",
+      "in",
+      "see",
+      "enda",
+      "point",
+      "chapter"
+    ]
+  },
+  {
+    "index": 14,
+    "start": 1487.2875,
+    "chapter": 14,
+    "ch_words": [
+      "fourteen",
+      "meetings",
+      "point",
+      "of",
+      "view",
+      "nine",
+      "evil",
+      "mirror",
+      "chapter"
+    ]
+  },
+  {
+    "index": 15,
+    "start": 1589.014375,
+    "chapter": 15,
+    "ch_words": [
+      "fifteen",
+      "what",
+      "can",
+      "be",
+      "learned",
+      "in",
+      "dreams",
+      "point",
+      "chapter"
+    ]
+  },
+  {
+    "index": 16,
+    "start": 1791.355,
+    "chapter": 16,
+    "ch_words": [
+      "sixteen",
+      "an",
+      "unexpected",
+      "offer",
+      "point",
+      "of",
+      "view",
+      "nine",
+      "chapter"
+    ]
+  },
+  {
+    "index": 17,
+    "start": 1869.328125,
+    "chapter": 17,
+    "ch_words": [
+      "seventeen",
+      "heading",
+      "west",
+      "point",
+      "of",
+      "view",
+      "nine",
+      "evil",
+      "chapter"
+    ]
+  },
+  {
+    "index": 18,
+    "start": 1974.239375,
+    "chapter": 18,
+    "ch_words": [
+      "eighteen",
+      "a",
+      "hound",
+      "of",
+      "darkness",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 19,
+    "start": 2062.404375,
+    "chapter": 19,
+    "ch_words": [
+      "nineteen",
+      "memories",
+      "point",
+      "of",
+      "view",
+      "more",
+      "geese",
+      "track",
+      "chapter"
+    ]
+  },
+  {
+    "index": 20,
+    "start": 2122.273125,
+    "chapter": 20,
+    "ch_words": [
+      "twenty",
+      "jang",
+      "i",
+      "pass",
+      "point",
+      "of",
+      "view",
+      "randell",
+      "chapter"
+    ]
+  },
+  {
+    "index": 21,
+    "start": 2186.716875,
+    "chapter": 21,
+    "ch_words": [
+      "twenty",
+      "one",
+      "the",
+      "gift",
+      "of",
+      "a",
+      "blade",
+      "point",
+      "chapter"
+    ]
+  },
+  {
+    "index": 22,
+    "start": 2282.4125,
+    "chapter": 22,
+    "ch_words": [
+      "twenty",
+      "two",
+      "hurt",
+      "caused",
+      "by",
+      "night",
+      "point",
+      "of",
+      "chapter"
+    ]
+  },
+  {
+    "index": 23,
+    "start": 2410.924375,
+    "chapter": 23,
+    "ch_words": [
+      "twenty",
+      "three",
+      "the",
+      "fifth",
+      "i",
+      "give",
+      "you",
+      "points",
+      "chapter"
+    ]
+  },
+  {
+    "index": 24,
+    "start": 2486.9125,
+    "chapter": 24,
+    "ch_words": [
+      "twenty",
+      "four",
+      "a",
+      "message",
+      "sent",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 25,
+    "start": 2557.568125,
+    "chapter": 25,
+    "ch_words": [
+      "twenty",
+      "five",
+      "dreams",
+      "of",
+      "gallet",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 26,
+    "start": 2660.8725,
+    "chapter": 26,
+    "ch_words": [
+      "twenty",
+      "six",
+      "sally",
+      "darragh",
+      "point",
+      "of",
+      "view",
+      "mean",
+      "chapter"
+    ]
+  },
+  {
+    "index": 27,
+    "start": 2749.5475,
+    "chapter": 27,
+    "ch_words": [
+      "twenty",
+      "seven",
+      "the",
+      "practice",
+      "of",
+      "diffidence",
+      "point",
+      "of",
+      "chapter"
+    ]
+  },
+  {
+    "index": 28,
+    "start": 2907.65,
+    "chapter": 28,
+    "ch_words": [
+      "twenty",
+      "eight",
+      "trapped",
+      "point",
+      "of",
+      "view",
+      "gareth",
+      "brine",
+      "chapter"
+    ]
+  },
+  {
+    "index": 29,
+    "start": 3031.30625,
+    "chapter": 29,
+    "ch_words": [
+      "twenty",
+      "nine",
+      "memories",
+      "of",
+      "sell",
+      "dia",
+      "point",
+      "of",
+      "chapter"
+    ]
+  },
+  {
+    "index": 30,
+    "start": 3106.91,
+    "chapter": 30,
+    "ch_words": [
+      "thirty",
+      "a",
+      "wager",
+      "point",
+      "of",
+      "view",
+      "randell",
+      "thor",
+      "chapter"
+    ]
+  },
+  {
+    "index": 31,
+    "start": 3177.560625,
+    "chapter": 31,
+    "ch_words": [
+      "thirty",
+      "one",
+      "the",
+      "far",
+      "snows",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 32,
+    "start": 3291.008125,
+    "chapter": 32,
+    "ch_words": [
+      "thirty",
+      "two",
+      "a",
+      "short",
+      "spear",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 33,
+    "start": 3391.351875,
+    "chapter": 33,
+    "ch_words": [
+      "thirty",
+      "three",
+      "a",
+      "question",
+      "of",
+      "crimson",
+      "the",
+      "point",
+      "chapter"
+    ]
+  },
+  {
+    "index": 34,
+    "start": 3489.005625,
+    "chapter": 34,
+    "ch_words": [
+      "thirty",
+      "four",
+      "a",
+      "silver",
+      "arrow",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 35,
+    "start": 3615.1274999999996,
+    "chapter": 35,
+    "ch_words": [
+      "thirty",
+      "five",
+      "ripped",
+      "away",
+      "point",
+      "of",
+      "view",
+      "the",
+      "chapter"
+    ]
+  },
+  {
+    "index": 36,
+    "start": 3689.6175000000003,
+    "chapter": 39,
+    "ch_words": [
+      "three",
+      "thirty",
+      "six",
+      "a",
+      "new",
+      "name",
+      "point",
+      "of",
+      "chapter"
+    ]
+  },
+  {
+    "index": 37,
+    "start": 3813.84375,
+    "chapter": 37,
+    "ch_words": [
+      "thirty",
+      "seven",
+      "performances",
+      "in",
+      "some",
+      "mara",
+      "point",
+      "of",
+      "chapter"
+    ]
+  },
+  {
+    "index": 38,
+    "start": 3905.6118749999996,
+    "chapter": 38,
+    "ch_words": [
+      "thirty",
+      "eight",
+      "an",
+      "old",
+      "acquaintance",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 39,
+    "start": 3952.1168749999997,
+    "chapter": 39,
+    "ch_words": [
+      "thirty",
+      "nine",
+      "encounters",
+      "in",
+      "some",
+      "mara",
+      "point",
+      "of",
+      "chapter"
+    ]
+  },
+  {
+    "index": 40,
+    "start": 4033.8256250000004,
+    "chapter": 49,
+    "ch_words": [
+      "forty",
+      "the",
+      "wheel",
+      "weaves",
+      "point",
+      "of",
+      "view",
+      "nine",
+      "chapter"
+    ]
+  },
+  {
+    "index": 41,
+    "start": 4132.02,
+    "chapter": 41,
+    "ch_words": [
+      "forty",
+      "one",
+      "the",
+      "craft",
+      "of",
+      "kin",
+      "to",
+      "veer",
+      "chapter"
+    ]
+  },
+  {
+    "index": 42,
+    "start": 4210.596875,
+    "chapter": 42,
+    "ch_words": [
+      "forty",
+      "two",
+      "before",
+      "the",
+      "arrow",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 43,
+    "start": 4324.63,
+    "chapter": 43,
+    "ch_words": [
+      "forty",
+      "three",
+      "this",
+      "place",
+      "this",
+      "day",
+      "point",
+      "of",
+      "chapter"
+    ]
+  },
+  {
+    "index": 44,
+    "start": 4480.8275,
+    "chapter": 44,
+    "ch_words": [
+      "forty",
+      "four",
+      "the",
+      "lesser",
+      "sadness",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 45,
+    "start": 4658.47125,
+    "chapter": 45,
+    "ch_words": [
+      "forty",
+      "five",
+      "after",
+      "the",
+      "storm",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 46,
+    "start": 4745.4025,
+    "chapter": 46,
+    "ch_words": [
+      "forty",
+      "six",
+      "other",
+      "battles",
+      "other",
+      "weapons",
+      "point",
+      "of",
+      "chapter"
+    ]
+  },
+  {
+    "index": 47,
+    "start": 4850.08125,
+    "chapter": 47,
+    "ch_words": [
+      "forty",
+      "seven",
+      "the",
+      "price",
+      "of",
+      "a",
+      "ship",
+      "point",
+      "chapter"
+    ]
+  },
+  {
+    "index": 48,
+    "start": 5005.159375,
+    "chapter": 48,
+    "ch_words": [
+      "forty",
+      "eight",
+      "leave",
+      "takings",
+      "point",
+      "of",
+      "view",
+      "nine",
+      "chapter"
+    ]
+  },
+  {
+    "index": 49,
+    "start": 5114.825625,
+    "chapter": 49,
+    "ch_words": [
+      "forty",
+      "nine",
+      "to",
+      "blanda",
+      "point",
+      "of",
+      "view",
+      "nine",
+      "chapter"
+    ]
+  },
+  {
+    "index": 50,
+    "start": 5262.014375,
+    "chapter": 50,
+    "ch_words": [
+      "fifty",
+      "to",
+      "teach",
+      "and",
+      "learn",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 51,
+    "start": 5430.083125,
+    "chapter": 51,
+    "ch_words": [
+      "fifty",
+      "one",
+      "news",
+      "comes",
+      "to",
+      "carry",
+      "end",
+      "point",
+      "chapter"
+    ]
+  },
+  {
+    "index": 52,
+    "start": 5611.09375,
+    "chapter": 52,
+    "ch_words": [
+      "fifty",
+      "two",
+      "choices",
+      "point",
+      "of",
+      "view",
+      "randell",
+      "thor",
+      "chapter"
+    ]
+  },
+  {
+    "index": 53,
+    "start": 5806.73375,
+    "chapter": 53,
+    "ch_words": [
+      "fifty",
+      "three",
+      "fading",
+      "words",
+      "point",
+      "of",
+      "view",
+      "randell",
+      "chapter"
+    ]
+  },
+  {
+    "index": 54,
+    "start": 5949.20375,
+    "chapter": 54,
+    "ch_words": [
+      "fifty",
+      "four",
+      "to",
+      "came",
+      "lynn",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 55,
+    "start": 6162.478125,
+    "chapter": 55,
+    "ch_words": [
+      "fifty",
+      "five",
+      "the",
+      "threads",
+      "burn",
+      "point",
+      "of",
+      "view",
+      "chapter"
+    ]
+  },
+  {
+    "index": 56,
+    "start": 6468.19625,
+    "chapter": 56,
+    "ch_words": [
+      "fifty",
+      "six",
+      "glowing",
+      "embers",
+      "point",
+      "of",
+      "view"
+    ]
+  }
+]
